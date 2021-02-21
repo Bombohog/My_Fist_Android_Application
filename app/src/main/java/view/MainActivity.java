@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package view;
 
 import android.view.View;
 import android.widget.Button;
@@ -6,6 +6,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.example.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(editText.getText());
             }
         });
+        // button.setOnClickListener((v) -> { textView.setText(editText.getText()); });
 
     }
 
